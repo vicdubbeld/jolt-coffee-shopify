@@ -1,2 +1,2 @@
 # jolt-coffee-shopify
-Shopify Coffee Site
+This is a Shopify Coffee Site built from scratch.
