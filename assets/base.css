@@ -1458,7 +1458,7 @@ product-price.text-block:is(.h1, .h2, .h3, .h4, .h5, .h6) .volume-pricing-note {
 .layout-panel-flex {
   display: flex;
   gap: var(--gap);
-  height: 100%;
+  height: 101%;
 }
 
 .shopify-block:has(> [shopify-block-empty]) {
