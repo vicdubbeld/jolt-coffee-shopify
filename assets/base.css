@@ -1348,6 +1348,15 @@ product-price.text-block:is(.h1, .h2, .h3, .h4, .h5, .h6) .volume-pricing-note {
   display: inline-block;
 }
 
+.jolt-badge {
+  background-color: #d9622b;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
 /* Spacing style */
 .spacing-style {
   --spacing-scale: var(--spacing-scale-md);

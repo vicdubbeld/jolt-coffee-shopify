@@ -76,10 +76,10 @@
   {% if has_volume_pricing %}
     {% comment %} Volume pricing display {% endcomment %}
     {% if show_compare_price %}
-      <span class="price-item__group compare-at-price">
-        <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
-        {{- compare_at_price -}}
-      </span>
+    <span class="price-item__group compare-at-price">
+      <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
+      {{- compare_at_price -}}
+    </span>
     {% endif %}
     <span class="price-item__group price">
       <span class="visually-hidden">{{ 'content.price_range' | t }}&nbsp;</span>
@@ -107,9 +107,10 @@
           {{ price | default: '&nbsp;' }}
         </span>
       {% endif %}
-    {% else %}
-      <span class="price">{{ price | default: '&nbsp;' }}</span>
-    {% endif %}
+  {% else %}
+    <span class="price">{{ price | default: '&nbsp;' }}</span>
+    <span class="jolt-badge">Freshly Roasted</span>
+  {% endif %}
   {% endif %}
   {%- if selected_variant.unit_price and show_unit_price %}
     {%- liquid
